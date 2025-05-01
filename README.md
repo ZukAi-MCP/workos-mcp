@@ -58,12 +58,3 @@ The JSDoc comments are important:
 - `@param` tags define the tool's parameters with types and descriptions
 - `@return` tag specifies the return value and type
 
-## Learn More
-
-Check out the following resources to learn more:
-
-- [create-mcp Documentation](https://github.com/zueai/create-mcp) - learn about the create-mcp CLI
-- [Model Control Protocol Documentation](https://modelcontextprotocol.io) - learn about the model control protocol
-- [workers-mcp](https://github.com/cloudflare/workers-mcp) - the package that implements the MCP protocol for Cloudflare Workers
-- [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/) - learn about the Cloudflare Workers platform
-- [WorkOS Documentation](https://workos.com/docs) - learn about the WorkOS API
