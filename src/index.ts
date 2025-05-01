@@ -473,3 +473,4 @@ export default class MyWorker extends WorkerEntrypoint<Env> {
 		return await reactivateOrganizationMembership(this.env, membershipId)
 	}
 }
+
