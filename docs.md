@@ -549,6 +549,7 @@ Generates the logout URL by extracting the session ID from the session cookie. U
 
 #### `Returns`
 
+
 Single Sign-On
 --------------
 
