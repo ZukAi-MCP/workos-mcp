@@ -1,0 +1,61 @@
+{
+  "_from": "git://github.com/smileycoin/cs-insight.git",
+  "_id": "cs-insight@3.3.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cs-insight",
+  "_phantomChildren": {
+    "isarray": "0.0.1"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "cs-insight@git://github.com/smileycoin/cs-insight.git",
+    "name": "cs-insight",
+    "escapedName": "cs-insight",
+    "rawSpec": "git://github.com/smileycoin/cs-insight.git",
+    "saveSpec": "git://github.com/smileycoin/cs-insight.git",
+    "fetchSpec": "git://github.com/smileycoin/cs-insight.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/cs-wallet"
+  ],
+  "_resolved": "git://github.com/smileycoin/cs-insight.git#71d810179ad9a602dd46a5363d1f03f65ae00d76",
+  "_spec": "cs-insight@git://github.com/smileycoin/cs-insight.git",
+  "bugs": {
+    "url": "https://github.com/CoinSpace/cs-insight/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "big.js": "^3.1.3",
+    "bitcoinjs-lib": "git://github.com/smileycoin/bitcoinjs-lib.git",
+    "es6-promise": "^3.0.2",
+    "lodash": "^4.17.5",
+    "path-to-regexp": "^1.2.1"
+  },
+  "deprecated": false,
+  "description": "common-blockchain-blockr",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^3.5.3",
+    "nock": "^9.0.22"
+  },
+  "homepage": "https://github.com/CoinSpace/cs-insight#readme",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "name": "cs-insight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoinSpace/cs-insight.git"
+  },
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "mocha --reporter spec --timeout 600000"
+  },
+  "version": "3.3.0"
+}
